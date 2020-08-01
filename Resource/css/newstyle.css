@@ -1,0 +1,38 @@
+.courseImg{
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+
+.courseImage{
+	width: 100%;
+	display: inline;
+	position: relative;
+	background-attachment: fixed;
+}
+.courseName{
+	position: absolute;
+	margin-top: 20px;
+	 left:  50%;
+    transform: translate(-50%);
+	color: #fff;
+	font-size: 34px;
+	font-weight: 900;
+	z-index: 10000;
+}
+.courseDetail{
+	position: absolute;
+	color: #fff;
+	top:  50%;
+	left: 50%;
+    transform: translate(-50%);
+}
+.courseImage:hover{
+	box-shadow: 0 8px 16px 0 rgba(153, 204, 255, 0.9), 0 6px 20px 0 rgba(153, 204, 255, 0.9);
+}
+.courseImg .btn{
+	position: absolute;
+	top:  70%;
+	left: 50%;
+    transform: translate(-50%);
+}

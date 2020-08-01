@@ -1,0 +1,202 @@
+@media (max-width : 575px) {
+    #content-item {
+        display: none;
+    }
+    #article {left: 0;}
+    
+    /*----- Percentage --------*/
+    
+    body{
+        font-size: 80%;
+    }
+    .divide_percent_table1 .table td,
+    .divide_percent_table1 .table tr,
+    .divide_percent_table3 .table tr{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    /* Reuse */
+    
+    .mp-0{
+        margin-left: 1px !important;
+        padding-left: 1px !important;
+        margin-right: 1px !important;
+        padding-right: 1px !important;
+    }
+    .block-right{
+        margin-top: 10px;
+        display: block !important;
+        text-align: right;
+    }
+    .font-15 .mjx-math,
+    .font-15 .mjx-chtml
+    {
+        font-size: 15px !important;
+    }
+    .diff-color-3{
+        color: #4dc4e0;
+    }
+    .margin-right{
+        text-align: right;
+        margin-top: 20px;
+        display: block;
+        color: #4dc4e0;
+    }
+     .amount-margin-3
+     {
+        margin-left: 70px !important;
+    }
+    .margin-right-1{
+        margin-left: 17px !important;
+        color: #4dc4e0;
+    }
+    .ali-width{
+        width: 45% !important;
+    }
+    .aligation .col-sm-2{
+        width: 110px!important;
+    }
+    .aligation .col-sm-1.5{
+        width: 30px !important;
+    }
+    .type15 .line{
+        margin-left: 10px!important;
+    }
+    .mob-width-75{
+        width: 100% !important;
+    }
+    .note{padding-left: 20px;}
+    .block{
+        display: block;
+    }
+    
+    /* Chapter code */
+    
+   .type4 .margin_left
+    {
+        margin-left: 0!important;
+    }
+    .type4_margin .px-3,
+    .type4_margin .pr-5,
+    .type4_margin .mx-3{
+        padding: 2px!important;
+        margin: 2px!important;
+    }
+    .type6 .mjx-math,
+    .type6 .mjx-chtml {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    
+    .type9 .w-50{
+        width: 100% !important;
+    }
+    .type9 .dec{
+        font-size: 29px;
+    }
+    .type9 .dis-block{
+        display: block;
+    }
+    .type9 .mb-5{
+        margin-bottom: 20px !important;
+    }
+    .type9 .mt-5{
+        margin-top: 20px !important;
+    }
+    .type9 .margin-left{
+        margin-left: 100px !important;
+    }
+    .type14 .mx-5{
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+    }
+    .type14 .arow-margin1{
+        margin-left: 110px !important;
+    }
+     .type14 .arow-margin2{
+        margin-left: 110px !important;
+         color: #4dc4e0;
+    }
+    .type14 .arow-height{
+        width: 12px;
+        font-weight: 100;
+    }
+    
+    .type14-1 .ml-5,
+    .type14-1 .mx-5 {
+        margin-left: 0.5% !important;
+    }
+    .type14-1 .pl-5
+    {
+        padding-left: 15px !important;
+    }
+    .type14-1 .mx-5{
+        margin-right: 15px !important;
+    }
+    .type14-1 .arrow-margin2{
+        margin-left: 100px !important;
+    }
+    .type14-1 .arrow-margin3{
+        margin-left: 120px !important;
+        color: #4dc4e0;
+    }
+    .type14-1 .amount-margin-2{
+        margin-left: 20px !important;
+    }
+    .type22 .display-4{
+        display: none;
+    }
+}
+
+@media (min-width : 576px) {
+    #content-item {
+        display: none;
+    }
+    #article {left: 0; }
+}
+
+
+
+@media (min-width : 768px) {
+    #content-item {
+        display: block;
+        position: fixed;
+        width: 175px;
+    }
+    #content-list-mob {display: none !important;}
+     #article {
+         position: relative;
+         left: 200px; 
+    }
+    
+}
+
+@media (min-width : 992px) {
+    #content-item {
+        display: block;
+        position: fixed;
+    }
+
+    #content-list-mob {
+        display: none !important;
+    }
+    #article {
+         position: relative;
+         left: 200px; 
+    }
+}
+
+@media (min-width : 1200px) {
+    #content-item {
+        display: block;
+        position: fixed;
+    }
+    #content-list-mob {display: none; }
+    #article {
+         position: relative;
+         left: 200px; 
+    }
+}

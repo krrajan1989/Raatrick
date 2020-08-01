@@ -1,0 +1,67 @@
+.computerImg{
+	position: relative;
+}
+.dataProcessingArow{
+	font-size: 30px;
+	margin: 0px 20px;
+}
+.hardware_Img{
+	width: 100%;
+	display: flex;
+}
+.hardwarDescriptionImg{
+	width: 100%;
+	position: relative;
+}
+
+        @media (min-width:576px) {
+			.Opration{
+				margin-left: 0px !important;
+			}
+			.dataProcessingArow{margin: 0 7px;}
+			.dataProcessingArowDown{
+				display: none;
+			}
+		
+		}
+
+        /* Medium devices (tablets) */
+
+        @media (min-width:768px) {
+		}
+
+        /* Large devices (desktops) */
+
+        @media (min-width:992px) {
+		 
+		}
+
+        /* Extra large devices (large desktops) */
+
+        @media (min-width:1200px) {
+		 
+		}
+
+        /* The given screen size or smaller */
+
+        /* Extra small devices (portrait phones)*/
+
+        @media (max-width:575px) {
+			.heading{font-size: 90%;padding: 10px;margin-bottom: 15px !important;}
+			.dataProcessingArow{
+				display: none;
+			}
+			.card-body{
+				padding: 15px;
+			}
+			.inOutPro{
+				display: block;
+				width: 75%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.Opration p{
+				margin-left: 10px !important;
+				margin-right: 10px !important;
+			}
+		}
